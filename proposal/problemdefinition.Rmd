@@ -1,0 +1,34 @@
+# The Problem
+
+## Introduction
+- Introduce ECMWF
+- Introduce various data products and interfaces (currently pooled in the ecmwfr package)
+
+## The issue
+- The data access options (current focus on python)
+- Although ecmwfr gives basic access, no derivative functions are provided
+  - limit user replication of common functions (spatial subsets)
+  - provide readily available and common statistics 
+    - extreme value theory
+    - long term means
+    - ...
+...
+
+## Who does it affect
+
+- climate scientists
+- policy makers
+- ecologists
+- hydrologists
+
+broad scope, both across fields as specially
+
+## Previous attempts
+
+- no
+
+## Why should it be tackled?
+
+- scope of functions is broader than cloud based solutions
+- more control
+- reproducibility of analysis and distribution of processing routines
