@@ -1,7 +1,5 @@
 # The proposal
 
-See problem definition!
-
 ## Overview
 
 <!--

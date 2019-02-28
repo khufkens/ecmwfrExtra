@@ -1,34 +1,11 @@
 # The Problem
 
 ## Introduction
-- Introduce ECMWF
-- Introduce various data products and interfaces (currently pooled in the ecmwfr package)
 
-## The issue
-- The data access options (current focus on python)
-- Although ecmwfr gives basic access, no derivative functions are provided
-  - limit user replication of common functions (spatial subsets)
-  - provide readily available and common statistics 
-    - extreme value theory
-    - long term means
-    - ...
-...
+The European Center for Medium-Range Weather (ECMWF) forecasts provides global numeric weather predictions, serving both European member states and the (scientific) community at large. Additional data products include air quality analysis, ocean circulation analysis and hydrological predictions. ... training in the data processing. The variety of services supports a broad range of applications, public services, agriculture, researches well as policy makers.
 
-## Who does it affect
+The ECMWF distributes their data products through a number of application programming interfaces (APIs). In particular the ECMWF WebAPI and for a subset of the products the Copernicus Climate Data Store (CDS). Data access to these sources is currently provided by the recent 'ecmwfr' package.
 
-- climate scientists
-- policy makers
-- ecologists
-- hydrologists
+However, currently most of ECMWF internal focus is on python based solutions comprehensive post-processing routines and examples are missing for the geo-spatial R community. As such, even simple operation such as calculating long term means and spatial averaging is poorly documented, limiting the accessibility for first time (data) users. 
 
-broad scope, both across fields as specially
-
-## Previous attempts
-
-- no
-
-## Why should it be tackled?
-
-- scope of functions is broader than cloud based solutions
-- more control
-- reproducibility of analysis and distribution of processing routines
+Here, we propose to collaboratively develop a comprehensive set of routines focussed on the ECMWF data products and their diverse user community. We will take cues from previous efforts in python such as [MetPy](https://www.unidata.ucar.edu/software/metpy/), but will not limited to meteorological data questions. Our proposal will result in easier, reproducible and transparent processing of ECMWF data.
