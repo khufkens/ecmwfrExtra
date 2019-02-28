@@ -2,6 +2,11 @@
 
 ## Overview
 
+Although ECMWF data serve a wide variety of users there is limited to no representation of the data services or derived products within the R sphere. Historically the focus has been on python code development and tools.
+
+Over the past decade a shift toward more extensive processing of both geo-spatial (remote sensing) data in R happened driven by new geo-stpatial infrastructure. Particular examples include the `raster` library and more recently the combination of `sf` and `stars` libraries.
+
+
 <!--
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
@@ -11,9 +16,7 @@ At a high-level address what your proposal is and how it will address the proble
 Will deliver a minimum viable product called ecmwfrExtra, or a more fitting name? Aggregating cross cutting coding efforts by community members of a multi disciplinary background. Hack-a-ton.
 
 
-MetPy https://unidata.github.io/MetPy/latest/index.html
 
-PDSI
 
 
 <!--
