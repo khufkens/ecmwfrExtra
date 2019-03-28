@@ -1,31 +1,23 @@
 # Success
-<!-- 
-Projects should have a definition of done that is measurable, and a thorough understanding going in of what the risks are to delivery 
--->
+
+Success will be defined by the development of a first skeleton `ecmwfrExtra` package with at least 5 well documented domain specific functions, and 5 two general purpose functions.
+
+We acknowledge that these numbers are ad-hoc. However, the main incentive for the workshop would be to make sure that contributions to ECMWF R based package development are not one sides, focussing on a few scientific domains. A diversity of contributions from different fields, reflected in different discipline bound functions would be the most prominent indicator of success.
 
 ## Definition of done
-<!-- 
-What does success look like? 
--->
+
+The package will remain open for development after the workshop. The purpose is therefore less to attain a permanent status of "done" rather to spur on development. In this sense, if development continues after the hack-a-ton we would consider the job "done".
 
 ## Measuring success
-<!-- 
-How will we know when success is achieved, what markers can we use along the way 
--->
+
+...
 
 ## Future work
-<!-- 
-How could this be extended / developed in the future by yourself and/or the community in general?
--->
+
+...
 
 ## Key risks
 
-<!-- 
-What sort of things could come up that can delay or break the project?
+Risks involve the process of motivating people for the hack-a-ton, and gaps in knowledge skill in using certain tools (mainly git) when trying to contribute to the project.
 
- - [ ] People
- - [ ] Processes
- - [ ] Tooling & Technology
- - [ ] Costs
-
--->
+Although pre-requisits can be listed when putting out the call for participants we would like to include as many participants as possible. However, we will make sure to advertise that a certain level of proficiency in R and git is required. In this sense we will not strictly teach code development, only guide people where necessary and bring people into one space to learn from one another.

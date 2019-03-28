@@ -1,30 +1,19 @@
-# The proposal
+# The Proposal
 
 ## Overview
 
-Although ECMWF data serve a wide variety of users there is limited to no representation of the data services or derived products within the R sphere. Historically the focus has been on python code development and tools.
+Although ECMWF data serve a wide variety of users there is limited to no representation of the data services or derived products within the R sphere. Historically, ECMWF's focus has converged on python based tools or cloud based solutions. Cloud based solutions provide processing at scale. However, there remains a need to access and process geo-spatial (climate) data locally.
 
-Over the past decade a shift toward more extensive processing of both geo-spatial (remote sensing) data in R happened driven by new geo-stpatial infrastructure. Particular examples include the `raster` library and more recently the combination of `sf` and `stars` libraries.
+Rapid product development, hypothesis testing and local analysis often do not benefit from coding at scale, which can come with certain idiosyncratic limitations. Querying data has recently been addressed by the `ecmwfr`. Bringing functionality of standard ECMWF python based data acquisition tools to R. However this did not coincide with a similar development in post-processing tools to support researchers such as those found in the python environment, e.g. through [MetPy](https://www.unidata.ucar.edu/software/metpy/).
 
+Over the past decade a shift toward more extensive processing of geo-spatial data in R occured. Particular examples include the `sp` and `raster` libraries, which are in part superceded by the more recent more `sf` and `stars` implementations. To strenghten easy local processing of climate data we propose to compile a standard set of tools, a library of routines, building upon ECMWF data and R based geo-spatial frameworks. These routines would allow for the users to sidestep the development of common operations, provide access to standard indices in policy and decision making, and leave room to compile novel data products.
 
-<!--
-At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
--->
+A search of CRAN (for ECMWF) only returns a limited number of projects (12) using ECMWF data, all of which address very particular niche based questions regarding air pollution or hydrological modelling. Our proposal will result in a general ECMWF processing package (provisionally ecmwfrExtra) which will make for easier, reproducible and transparent processing of ECMWF data, while at the same time providing educational material (through vignettes) and accessible code examples.
 
 ## Detail
 
-Will deliver a minimum viable product called ecmwfrExtra, or a more fitting name? Aggregating cross cutting coding efforts by community members of a multi disciplinary background. Hack-a-ton.
+As users of ECMWF data are varied, attracting both users from meteorology, climatology, hydrology, ecology, agronomy to finance displines. It remains challenging to gauge the most pressing needs within the respective interested communities.
 
+To provide an opportunity to openly develop these tools with as wide a community input as possible we propose to organize a hack-a-ton in which small teams or individuals are invited to contribute small functions to the an `ecmwfrExtra` package (tentative), dealing with common operations within their particular discipline. Although we acknowledge that biases toward certain disciplines might persist, a crowdsourced developing round will far exceed the potential application considered by a singular developer. 
 
-
-
-
-<!--
-Go into more detail about the specifics of the project and it delivers against the problem.
-
-Depending on project type the detail section should include:
-
- - [ ] Minimum Viable Product
- - [ ] Architecture
- - [ ] Assumptions
--->
+The resulting will be a minimum viable product, an R package, providing these functions to the wider community as well as applied (reproducable) examples, as vignettes.

@@ -1,46 +1,27 @@
 # Requirements
-<!-- 
-An idea of what is required to make the project actually happen
--->
+
+- context provided by ECMWF meeting
+- framework adhering to rOpenSci practices
+- tools are limited to standard code devops
+- funding would cover food drinks, space, and a small prize for best visuals, general purpose function?
 
 ## People
 
-rOpenSci support?
-
-<!--
-Who needs to be involved, what's the proposed structure, what will it take to get their involvement?
--->
+As the hack-a-ton would benefit from the context of ECMWF backgrounds the proposed workshop would be co-located with a broader conference / workshop with respect to ECMWF data use and product development. Assuring participants not only to R based processing but also the potential of scaling smaller projects or proof of concepts if deemed necessary.
 
 ## Processes
 
-Hand-over to the community through rOpenSci
-
-<!-- 
-What processes need to be put in place e.g. codes of conduct, regular ISC meetings, handover to the community at large?
--->
+By default development will happen in an open way through using a github repository hosted by ? (rOpenSci), ensuring a proper hand-over to a larger developing community after more rigorous review. During development and the hack-a-ton workshop rOpenSci development standards will be followed. This includes the codes of conduct, coding style and licensing.
 
 ## Tools & Tech
 
-Will rely on existing tools and tech (github mostly)
-
-<!--
-What is going to be needed to deliver this project? 
-
-Will cloud computing be used - if yes are there are necessary components that will be deciding factors between providers?
-
-Are there tools or tech that don't exist that will be produced to facilitate the project?
--->
+The proposed workshop will rely on standard code development tools such as github and Travis CI continous integration. Few additional technological requirements are needed.
 
 ## Funding
 
-Meeting space funding etc.
-
-<!-- 
-[TO DO] THE GUIDANCE IS PRETTY UNCLEAR, ESP IN LIGHT OF GABOR'S PROPOSAL VS AWARD SIZE
-
--->
+We ask for $10 000 in funding to cover this hack-a-ton (rough guestimate, should check budget previous small meetings).
 
 ## Summary
-<!--
-A summary of the requirements that contextualises the costs
--->
+
+..
+
